@@ -107,11 +107,6 @@ Wortholic AI empowers businesses of all sizes to integrate cutting-edge AI capab
 - **Real-time Features**: Live chat capabilities and instant responses
 - **Plugin Architecture**: Extensible with custom tools and integrations
 
-<div align="center">
-   
-![主界面](./docs/images/cover.png)
-
-</div>
 
 ## Roadmap
 
@@ -183,32 +178,6 @@ We recommend that you follow the steps below to re-deploy:
 - Delete the original repository;
 - Use the fork button in the upper right corner of the page to fork this project;
 - Choose and deploy in Vercel again, [please see the detailed tutorial](./docs/vercel-cn.md).
-
-### Enable Automatic Updates
-
-> If you encounter a failure of Upstream Sync execution, please [manually update code](./README.md#manually-updating-code).
-
-After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
-
-![Automatic Updates](./docs/images/enable-actions.jpg)
-
-![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
-
-### Manually Updating Code
-
-If you want to update instantly, you can check out the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked project with upstream code.
-
-You can star or watch this project or follow author to get release notifications in time.
-
-## Access Password
-
-This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
-
-```
-code1,code2,code3
-```
-
-After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
 
 ## Environment Variables
 
